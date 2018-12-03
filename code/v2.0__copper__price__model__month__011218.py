@@ -96,5 +96,5 @@ test['predictions'] = pred_price
 plt.plot(train['Spot'])
 plt.plot(test[['Spot', 'predictions']])
 
-print(main_df['Date'].tail())
-print(main_df['Date'].tail().apply(lambda x: x + pd.offsets.Week(2)))
+#print(main_df['Date'].tail())
+#print(main_df['Date'].tail().apply(lambda x: x + pd.offsets.Week(2)))
